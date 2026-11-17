@@ -16,8 +16,9 @@ A skill is never promoted on the basis of reading alone.
 | Skill | Status | Version |
 | ----- | ------ | ------- |
 | [Reentrancy analysis](reentrancy-analysis.md) | Practiced | 0.1.0 |
-| Access-control analysis | Practiced | (write-up pending) |
+| [Access-control analysis](access-control-analysis.md) | Practiced | 0.1.0 |
 | [Static analysis with Slither](slither-static-analysis.md) | Practiced | 0.1.0 |
-| Invariant / fuzz testing | Discovered | — |
+| [Fuzz testing with Medusa](medusa-fuzzing.md) | Tested | 0.1.0 |
+| [Symbolic testing with Halmos](halmos-symbolic-testing.md) | Tested | 0.1.0 |
 | Signature vulnerability analysis | Discovered | — |
 | Upgradeability bug analysis | Discovered | — |

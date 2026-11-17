@@ -49,9 +49,10 @@ Test and Evaluate steps, with results recorded in its file.
 | Skill | Status | Evidence |
 | ----- | ------ | -------- |
 | [Reentrancy analysis](skills/reentrancy-analysis.md) | Practiced | Lab exploits + fixes, 15/15 Foundry tests; OpenZeppelin source comparison |
-| Access-control analysis | Practiced | Lab modules, tests green (write-up pending) |
+| [Access-control analysis](skills/access-control-analysis.md) | Practiced | Lab exploit proven (unauthorized fee redirect + 100% fee); Relay on-chain role enumeration; Slither blind to this class |
 | [Static analysis with Slither](skills/slither-static-analysis.md) | Practiced | Slither 0.11.6 evaluated in an isolated venv; lab results verified per-result (1 reentrancy TP proven, 1 access-control false negative proven); Relay output triage-only |
-| Invariant / fuzz testing | Discovered | Not started |
+| [Fuzz testing with Medusa](skills/medusa-fuzzing.md) | Tested | Medusa 1.5.1 isolated evaluation: planted accounting bug caught with a 2-call counterexample; correct-code control 6/6 |
+| [Symbolic testing with Halmos](skills/halmos-symbolic-testing.md) | Tested | Halmos 0.3.3 isolated evaluation: overflow counterexample in 0.20s; control property proved; setUp deployment constraint documented |
 | Signature vulnerability analysis | Discovered | Not started |
 | Upgradeability bug analysis | Discovered | Not started |
 
