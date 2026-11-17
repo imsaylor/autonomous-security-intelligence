@@ -10,7 +10,7 @@ approval first.
 | Tool | Status | Notes |
 | ---- | ------ | ----- |
 | Foundry (forge/cast/anvil/chisel) 1.9.0 | Integrated | Installed 2026-11-16 via foundryup; `forge build` + `forge test` verified green on two local projects (15/15 and 40/40 tests). |
-| Slither (`crytic/slither`) | Discovered | 6,420 stars, updated 2026-11-15. Not installed. First integration target; first test: run against the lab's vulnerable vault. |
+| Slither (`crytic/slither`) 0.11.6 | Evaluated | Evaluated 2026-11-17 in an isolated venv (install verified, hashes recorded). Caught lab reentrancy; missed lab access control entirely; blind to transient storage. Evidence: [skills/slither-static-analysis.md](../skills/slither-static-analysis.md). Not yet part of the standard workflow. |
 | slither-mcp (`trailofbits/slither-mcp`) | Discovered | MCP server for Slither; evaluate after Slither itself works. |
 | Slitherin (`pessimistic-io/slitherin`) | Discovered | Extra detectors; evaluate after Slither itself works. |
 | Echidna | Discovered | Fuzzer; repository and maintenance status not yet verified. |

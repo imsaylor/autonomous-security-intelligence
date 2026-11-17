@@ -50,7 +50,7 @@ Test and Evaluate steps, with results recorded in its file.
 | ----- | ------ | -------- |
 | [Reentrancy analysis](skills/reentrancy-analysis.md) | Practiced | Lab exploits + fixes, 15/15 Foundry tests; OpenZeppelin source comparison |
 | Access-control analysis | Practiced | Lab modules, tests green (write-up pending) |
-| Static analysis with Slither | Discovered | `crytic/slither` verified; not installed |
+| [Static analysis with Slither](skills/slither-static-analysis.md) | Practiced | Slither 0.11.6 evaluated in an isolated venv; lab results verified per-result (1 reentrancy TP proven, 1 access-control false negative proven); Relay output triage-only |
 | Invariant / fuzz testing | Discovered | Not started |
 | Signature vulnerability analysis | Discovered | Not started |
 | Upgradeability bug analysis | Discovered | Not started |

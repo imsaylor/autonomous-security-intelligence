@@ -17,7 +17,7 @@ A skill is never promoted on the basis of reading alone.
 | ----- | ------ | ------- |
 | [Reentrancy analysis](reentrancy-analysis.md) | Practiced | 0.1.0 |
 | Access-control analysis | Practiced | (write-up pending) |
-| Static analysis with Slither | Discovered | — |
+| [Static analysis with Slither](slither-static-analysis.md) | Practiced | 0.1.0 |
 | Invariant / fuzz testing | Discovered | — |
 | Signature vulnerability analysis | Discovered | — |
 | Upgradeability bug analysis | Discovered | — |
